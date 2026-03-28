@@ -464,11 +464,14 @@ html {
     font-size: 32px;
     font-weight: 400;
 }
-/* EACH PROJECT */
 .project {
     position: relative;
-    height: 80vh;
+    height: 75vh;
     overflow: hidden;
+
+    display: block;          /* 🔥 ADD THIS */
+    text-decoration: none;   /* 🔥 ADD THIS */
+    color: inherit;          /* 🔥 ADD THIS */
 }
 
 /* IMAGE */
