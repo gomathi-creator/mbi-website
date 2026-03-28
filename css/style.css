@@ -417,15 +417,15 @@ body {
 }
 
 .project1 {
-    background-image: url('../images/project1.jpg');
+    background-image: url('../images/project1.png');
 }
 
 .project2 {
-    background-image: url('../images/project2.jpg');
+    background-image: url('../images/project2.png');
 }
 
 .project3 {
-    background-image: url('../images/project3.jpg');
+    background-image: url('../images/project3.png');
 }
 
 @media (max-width: 768px) {
