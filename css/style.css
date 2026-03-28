@@ -219,7 +219,7 @@ body {
 .philosophy-text h2 {
     font-size: 34px;
     font-weight: 400;
-    margin-bottom: 35px;
+    margin-bottom: 60px !important;
 }
 
 .philosophy-text p {
