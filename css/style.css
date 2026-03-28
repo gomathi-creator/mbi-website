@@ -936,6 +936,7 @@ html {
 .case-hero {
     position: relative;
     height: 80vh;
+    margin-bottom: 60px;
 }
 
 .case-hero-image {
@@ -980,12 +981,35 @@ html {
     max-width: 900px;
     margin: auto;
 }
+.case-container p {
+    font-size: 17px;
+    line-height: 1.8;
+    color: #cfcfcf;
+}
 
 /* SECTIONS */
-.case-intro,
-.case-intent,
+.case-intro {
+    margin-top: 60px;
+}
+.case-intent {
+    padding: 60px 0;
+}
+.case-intent h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
 .case-details {
-    padding: 80px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    width: 80%;
+    max-width: 1000px;
+    margin: 80px auto;
+
+    border-top: 1px solid rgba(255,255,255,0.1);
+    padding-top: 40px;
 }
 
 /* GALLERY */
@@ -1013,12 +1037,18 @@ html {
     gap: 40px;
     text-align: center;
 }
-
 .detail h4 {
+    font-size: 13px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
     color: #b87333;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
 }
-
+.detail p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #e5e5e5;
+}
 /* CTA */
 .case-cta {
     text-align: center;
