@@ -18,3 +18,17 @@ window.addEventListener("scroll", () => {
         philosophy.classList.add("show");
     }
 });
+const serviceTexts = document.querySelectorAll(".service-text");
+
+window.addEventListener("scroll", () => {
+
+    serviceTexts.forEach((text) => {
+        const triggerPoint = window.innerHeight * 0.85;
+        const top = text.getBoundingClientRect().top;
+
+        if (top < triggerPoint) {
+            text.classList.add("show");
+        }
+    });
+
+});
