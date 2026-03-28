@@ -34,9 +34,33 @@ body {
 
 /* LOGO */
 .logo {
-    font-size: 20px;
-    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.logo img {
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
+}
+
+.logo span {
+    font-size: 18px;
     letter-spacing: 1px;
+}
+
+@media (max-width: 768px) {
+
+    .logo img {
+        width: 24px;
+        height: 24px;
+    }
+
+    .logo span {
+        font-size: 16px;
+    }
+
 }
 
 /* NAV */
