@@ -366,3 +366,86 @@ body {
     }
 
 }
+
+/* PROJECTS */
+.projects {
+    background: #0f0f0f;
+}
+
+/* EACH PROJECT */
+.project {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* IMAGE */
+.project-image {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    filter: brightness(0.9);
+}
+
+/* OVERLAY TEXT */
+.project-info {
+    position: absolute;
+    bottom: 60px;
+    left: 5%;
+    color: #eaeaea;
+
+    opacity: 0;
+    transform: translateY(40px);
+    transition: all 0.8s ease;
+}
+
+.project-info.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.project-info h3 {
+    font-size: 28px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.project-info p {
+    font-size: 14px;
+    color: #cfcfcf;
+}
+
+.project1 {
+    background-image: url('../images/project1.jpg');
+}
+
+.project2 {
+    background-image: url('../images/project2.jpg');
+}
+
+.project3 {
+    background-image: url('../images/project3.jpg');
+}
+
+@media (max-width: 768px) {
+
+    .project {
+        height: 70vh;
+    }
+
+    .project-info {
+        bottom: 30px;
+        left: 20px;
+        right: 20px;
+    }
+
+    .project-info h3 {
+        font-size: 22px;
+    }
+
+    .project-info p {
+        font-size: 13px;
+    }
+
+}
