@@ -232,12 +232,6 @@ body {
     line-height: 1.9;
     color: #bfbfbf;
     margin-bottom: 15px;
-    max-width: 480px;
-}
-
-/* EMPTY SPACE (RIGHT SIDE) */
-.philosophy-space {
-    width: 40%;
 }
 
 @media (max-width: 768px) {
