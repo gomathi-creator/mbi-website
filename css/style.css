@@ -686,3 +686,69 @@ body {
 .m2 { background-image: url('../images/mat2.jpg'); }
 .m3 { background-image: url('../images/mat3.png'); }
 .m4 { background-image: url('../images/mat4.jpg'); }
+
+/* CTA SECTION */
+.cta {
+    padding: 120px 0;
+    background: #0a0a0a; /* slightly darker than rest */
+    text-align: center;
+}
+
+.cta-container {
+    width: 90%;
+    margin: auto;
+    max-width: 700px;
+}
+
+/* TEXT */
+.cta h2 {
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.cta p {
+    font-size: 15px;
+    color: #bfbfbf;
+    line-height: 1.8;
+    margin-bottom: 35px;
+}
+
+/* BUTTON */
+.cta-btn {
+    display: inline-block;
+    padding: 12px 28px;
+    border: 1px solid #b87333;
+    color: #b87333;
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+}
+
+/* HOVER */
+.cta-btn:hover {
+    background: #b87333;
+    color: #000;
+}
+
+@media (max-width: 768px) {
+
+    .cta {
+        padding: 80px 0;
+    }
+
+    .cta h2 {
+        font-size: 24px;
+    }
+
+    .cta p {
+        font-size: 14px;
+    }
+
+    .cta-btn {
+        padding: 10px 22px;
+        font-size: 13px;
+    }
+
+}
