@@ -578,3 +578,116 @@ body {
     }
 
 }
+/* MATERIAL SECTION */
+.materials {
+    padding: 120px 0;
+    background: #0f0f0f;
+}
+
+.materials-container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+/* LEFT TEXT */
+.materials-text {
+    width: 45%;
+}
+
+.materials-text h2 {
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.materials-text p {
+    font-size: 15px;
+    line-height: 1.9;
+    color: #bfbfbf;
+    margin-bottom: 15px;
+    max-width: 480px;
+}
+
+/* DESKTOP GRID */
+.materials-grid {
+    width: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+/* IMPORTANT */
+.material-card {
+    display: contents;
+}
+
+/* IMAGE */
+.material-img {
+    height: 180px;
+    background-size: cover;
+    background-position: center;
+}
+
+/* IMAGES */
+.m1 { background-image: url('../images/mat1.jpg'); }
+.m2 { background-image: url('../images/mat2.jpg'); }
+.m3 { background-image: url('../images/mat3.jpg'); }
+.m4 { background-image: url('../images/mat4.jpg'); }
+@media (max-width: 768px) {
+
+    .materials {
+        padding: 80px 0;
+    }
+
+    .materials-container {
+        flex-direction: column;
+    }
+
+    .materials-text {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    /* SWITCH FROM GRID → FLEX */
+    .materials-grid {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        width: 100%;
+    }
+
+    .material-card {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .material-img {
+        width: 50%;
+        height: 120px;
+    }
+
+    .material-text {
+        width: 50%;
+    }
+
+    .material-text h3 {
+        font-size: 16px;
+        margin-bottom: 6px;
+    }
+
+    .material-text p {
+        font-size: 13px;
+        color: #bfbfbf;
+        line-height: 1.5;
+    }
+
+    /* ALTERNATING EFFECT */
+    .material-card:nth-child(even) {
+        flex-direction: row-reverse;
+    }
+
+}
