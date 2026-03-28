@@ -265,7 +265,20 @@ body {
 .service-image {
     width: 50%;
     height: 70vh;
-    background: url('../images/service1.png') center/cover no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.service1 {
+    background-image: url('../images/service1.png');
+}
+
+.service2 {
+    background-image: url('../images/service2.png');
+}
+
+.service3 {
+    background-image: url('../images/service3.png');
 }
 
 /* TEXT */
