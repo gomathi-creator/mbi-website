@@ -341,7 +341,10 @@ body {
     .service {
         flex-direction: column !important; /* override alternating */
         align-items: flex-start;
-        margin-bottom: 30px;
+       min-height: auto;   /* 🔥 THIS is the main fix */
+        height: auto;
+
+        margin-bottom: 20px;
     }
 
     .service-image {
