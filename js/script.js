@@ -45,3 +45,18 @@ window.addEventListener("scroll", () => {
         }
     });
 });
+
+const steps = document.querySelectorAll(".process-step");
+
+window.addEventListener("scroll", () => {
+
+    steps.forEach((step) => {
+        const trigger = window.innerHeight * 0.85;
+        const top = step.getBoundingClientRect().top;
+
+        if (top < trigger) {
+            step.classList.add("show");
+        }
+    });
+
+});
