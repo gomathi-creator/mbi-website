@@ -74,7 +74,7 @@ body {
 .hamburger span {
     width: 25px;
     height: 2px;
-    background: #eaeaea;
+    background: #b87333;
     margin: 4px 0;
     transition: 0.3s;
 }
@@ -305,9 +305,17 @@ body {
 }
 
 .service-text h3 {
-    font-size: 26px; /* slightly reduced */
-    font-weight: 400;
-    margin-bottom: 12px; /* tighter spacing */
+    position: relative;
+}
+
+.service-text h3::before {
+    content: "";
+    position: absolute;
+    left: -20px;
+    top: 50%;
+    width: 10px;
+    height: 1px;
+    background: #b87333;
 }
 
 .service-text p {
