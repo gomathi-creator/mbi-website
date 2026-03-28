@@ -191,7 +191,7 @@ body {
 
 /* PHILOSOPHY */
 .philosophy {
-    padding: 140px 0;
+    padding: 120px 0;
     background: #0f0f0f;
 }
 
@@ -203,7 +203,7 @@ body {
     align-items: flex-start;
 }
 
-/* SCROLL ANIMATION BASE */
+/* TEXT */
 .philosophy-text {
     width: 50%;
 
@@ -211,49 +211,59 @@ body {
     transform: translateX(60px);
     transition: all 0.8s ease;
 }
+
 .philosophy-text.show {
     opacity: 1;
     transform: translateX(0);
 }
 
 .philosophy-text h2 {
-    font-size: 34px;
+    font-size: 32px;
     font-weight: 400;
-    margin-bottom: 60px !important;
+    margin-bottom: 35px; /* CLEAN spacing */
 }
 
 .philosophy-text p {
-    font-size: 18px;
+    font-size: 15px; /* REDUCED */
     line-height: 1.9;
     color: #bfbfbf;
     margin-bottom: 18px;
+    max-width: 480px; /* IMPORTANT */
 }
 
 .philosophy-space {
     width: 40%;
 }
-.philosophy-container {
-    flex-direction: column;
-}
 
-.philosophy-text {
-    width: 100%;
-}
+@media (max-width: 768px) {
 
-.philosophy-space {
-    display: none;
-}
+    .philosophy-container {
+        flex-direction: column;
+    }
 
-.philosophy {
-    padding: 80px 0;
-}
+    .philosophy-text {
+        width: 100%;
+        transform: translateX(30px);
+    }
 
-.philosophy-text h2 {
-    font-size: 26px;
-}
+    .philosophy-space {
+        display: none;
+    }
 
-.philosophy-text p {
-    font-size: 16px;
+    .philosophy {
+        padding: 80px 0;
+    }
+
+    .philosophy-text h2 {
+        font-size: 24px;
+        margin-bottom: 25px;
+    }
+
+    .philosophy-text p {
+        font-size: 14px;
+        max-width: 100%;
+    }
+
 }
 
 /* SERVICES */
