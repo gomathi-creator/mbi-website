@@ -465,3 +465,94 @@ body {
     }
 
 }
+
+/* PROCESS */
+.process {
+    padding: 120px 0;
+    background: #0f0f0f;
+}
+
+.process-container {
+    width: 90%;
+    margin: auto;
+}
+
+/* HEADER */
+.process-header h2 {
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 60px;
+}
+
+/* STEPS */
+.process-steps {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.process-step {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+
+    opacity: 0;
+    transform: translateY(40px);
+    transition: all 0.8s ease;
+}
+
+.process-step.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* NUMBER */
+.step-number {
+    font-size: 18px;
+    color: #b87333; /* copper */
+    min-width: 40px;
+}
+
+/* TEXT */
+.step-text h3 {
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.step-text p {
+    font-size: 14px;
+    color: #bfbfbf;
+    line-height: 1.8;
+    max-width: 500px;
+}
+
+@media (max-width: 768px) {
+
+    .process {
+        padding: 80px 0;
+    }
+
+    .process-header h2 {
+        font-size: 24px;
+        margin-bottom: 40px;
+    }
+
+    .process-step {
+        gap: 20px;
+    }
+
+    .step-number {
+        font-size: 16px;
+    }
+
+    .step-text h3 {
+        font-size: 18px;
+    }
+
+    .step-text p {
+        font-size: 13px;
+        max-width: 100%;
+    }
+
+}
