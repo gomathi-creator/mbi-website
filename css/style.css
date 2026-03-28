@@ -508,7 +508,7 @@ body {
 
 /* NUMBER */
 .step-number {
-    font-size: 18px;
+    font-size: 22px;
     color: #b87333; /* copper */
     min-width: 40px;
 }
@@ -543,7 +543,7 @@ body {
     }
 
     .step-number {
-        font-size: 16px;
+        font-size: 20px;
     }
 
     .step-text h3 {
