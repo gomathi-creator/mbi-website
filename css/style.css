@@ -258,32 +258,43 @@ body {
 .service {
     display: flex;
     align-items: center;
-    min-height: 80vh;
+    min-height: 70vh;
 }
 
 /* IMAGE */
 .service-image {
     width: 50%;
-    height: 80vh;
+    height: 70vh;
     background: url('../images/service1.png') center/cover no-repeat;
 }
 
 /* TEXT */
 .service-text {
     width: 50%;
-    padding: 60px;
+    padding: 50px; /* reduced from 60px */
+
+    /* animation */
+    opacity: 0;
+    transform: translateY(40px);
+    transition: all 0.8s ease;
+}
+
+.service-text.show {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 .service-text h3 {
-    font-size: 28px;
+    font-size: 26px; /* slightly reduced */
     font-weight: 400;
-    margin-bottom: 15px;
+    margin-bottom: 12px; /* tighter spacing */
 }
 
 .service-text p {
-    font-size: 15px;
+    font-size: 14.5px; /* slightly refined */
     color: #bfbfbf;
     line-height: 1.8;
+    max-width: 420px; /* IMPORTANT: controls text width */
 }
 
 .service:nth-child(even) {
@@ -302,9 +313,20 @@ body {
         margin-bottom: 20px;
     }
 
-    .service-text {
+.service-text {
         width: 100%;
         padding: 0 20px 40px 20px;
+
+        transform: translateY(25px); /* softer animation */
+    }
+
+    .service-text h3 {
+        font-size: 22px;
+    }
+
+    .service-text p {
+        font-size: 14px;
+        max-width: 100%;
     }
 
 }
