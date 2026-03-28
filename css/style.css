@@ -122,3 +122,16 @@ body {
     background: #b87333;
     margin: 20px auto 0;
 }
+@media (max-width: 768px) {
+
+    .hero {
+        height: 90vh;
+    }
+
+    .hero h1 {
+        font-size: 26px;
+        padding: 0 20px;
+        line-height: 1.4;
+    }
+
+}
