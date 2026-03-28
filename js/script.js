@@ -32,3 +32,16 @@ window.addEventListener("scroll", () => {
     });
 
 });
+
+const projects = document.querySelectorAll(".project-info");
+
+window.addEventListener("scroll", () => {
+    projects.forEach((proj) => {
+        const trigger = window.innerHeight * 0.85;
+        const top = proj.getBoundingClientRect().top;
+
+        if (top < trigger) {
+            proj.classList.add("show");
+        }
+    });
+});
