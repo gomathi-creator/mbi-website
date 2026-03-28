@@ -133,6 +133,9 @@ body {
 .nav.active {
     display: flex;
 }
+html {
+    scroll-behavior: smooth;
+}
 
 /* HERO */
 .hero {
