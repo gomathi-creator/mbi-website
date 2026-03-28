@@ -1037,22 +1037,36 @@ html {
 /* DETAILS */
 .case-details {
     display: flex;
-    justify-content: center;
-    gap: 40px;
-    text-align: center;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    width: 80%;
+    max-width: 1000px;
+    margin: 80px auto;
+
+    border-top: 1px solid rgba(255,255,255,0.1);
+    padding-top: 40px;
 }
+
+.detail {
+    width: 30%;
+    text-align: left;
+}
+
 .detail h4 {
-    font-size: 13px;
+    font-size: 12px;
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #b87333;
-    margin-bottom: 12px;
+    margin-bottom: 10px;
 }
+
 .detail p {
     font-size: 18px;
-    line-height: 1.6;
     color: #e5e5e5;
+    line-height: 1.6;
 }
+
 /* CTA */
 .case-cta {
     text-align: center;
@@ -1074,11 +1088,12 @@ html {
     }
 
     
-    .case-details {
+       .case-details {
         flex-direction: column;
         gap: 30px;
         width: 90%;
     }
+
     .detail {
         width: 100%;
     }
