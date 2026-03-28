@@ -578,7 +578,6 @@ body {
     }
 
 }
-/* MATERIAL SECTION */
 .materials {
     padding: 120px 0;
     background: #0f0f0f;
@@ -592,26 +591,24 @@ body {
     align-items: flex-start;
 }
 
-/* LEFT TEXT */
+/* TEXT */
 .materials-text {
     width: 45%;
 }
 
 .materials-text h2 {
     font-size: 32px;
-    font-weight: 400;
     margin-bottom: 25px;
 }
 
 .materials-text p {
     font-size: 15px;
-    line-height: 1.9;
     color: #bfbfbf;
+    line-height: 1.9;
     margin-bottom: 15px;
-    max-width: 480px;
 }
 
-/* DESKTOP GRID */
+/* GRID */
 .materials-grid {
     width: 50%;
     display: grid;
@@ -619,28 +616,18 @@ body {
     gap: 15px;
 }
 
-/* IMPORTANT */
-.material-card {
-    display: contents;
-}
-
-/* IMAGE */
-.material-img {
+.material-item {
     height: 180px;
     background-size: cover;
     background-position: center;
 }
 
-/* IMAGES */
-.m1 { background-image: url('../images/mat1.jpg'); }
-.m2 { background-image: url('../images/mat2.jpg'); }
-.m3 { background-image: url('../images/mat3.jpg'); }
-.m4 { background-image: url('../images/mat4.jpg'); }
-@media (max-width: 768px) {
+/* HIDE MOBILE VERSION ON DESKTOP */
+.materials-mobile {
+    display: none;
+}
 
-    .materials {
-        padding: 80px 0;
-    }
+@media (max-width: 768px) {
 
     .materials-container {
         flex-direction: column;
@@ -648,26 +635,34 @@ body {
 
     .materials-text {
         width: 100%;
-        margin-bottom: 40px;
+        margin-bottom: 30px;
     }
 
-    /* SWITCH FROM GRID → FLEX */
+    /* HIDE DESKTOP GRID */
     .materials-grid {
+        display: none;
+    }
+
+    /* SHOW MOBILE VERSION */
+    .materials-mobile {
         display: flex;
         flex-direction: column;
-        gap: 25px;
-        width: 100%;
+        gap: 20px;
+        width: 90%;
+        margin: auto;
     }
 
     .material-card {
         display: flex;
         align-items: center;
-        gap: 15px;
+        gap: 12px;
     }
 
     .material-img {
         width: 50%;
-        height: 120px;
+        height: 110px;
+        background-size: cover;
+        background-position: center;
     }
 
     .material-text {
@@ -675,19 +670,19 @@ body {
     }
 
     .material-text h3 {
-        font-size: 16px;
-        margin-bottom: 6px;
+        font-size: 15px;
+        margin-bottom: 5px;
     }
 
     .material-text p {
-        font-size: 13px;
+        font-size: 12px;
         color: #bfbfbf;
-        line-height: 1.5;
-    }
-
-    /* ALTERNATING EFFECT */
-    .material-card:nth-child(even) {
-        flex-direction: row-reverse;
+        line-height: 1.4;
     }
 
 }
+
+.m1 { background-image: url('../images/mat1.jpg'); }
+.m2 { background-image: url('../images/mat2.jpg'); }
+.m3 { background-image: url('../images/mat3.jpg'); }
+.m4 { background-image: url('../images/mat4.jpg'); }
