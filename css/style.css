@@ -106,6 +106,10 @@ body {
 
 }
 
+.nav.active {
+    display: flex;
+}
+
 /* HERO */
 .hero {
     position: relative;
