@@ -248,3 +248,40 @@ body {
 .philosophy-text p {
     font-size: 16px;
 }
+
+/* SERVICES */
+.services {
+    background: #0f0f0f;
+}
+
+/* EACH SERVICE BLOCK */
+.service {
+    display: flex;
+    align-items: center;
+    min-height: 80vh;
+}
+
+/* IMAGE */
+.service-image {
+    width: 50%;
+    height: 80vh;
+    background: url('../images/service1.jpg') center/cover no-repeat;
+}
+
+/* TEXT */
+.service-text {
+    width: 50%;
+    padding: 60px;
+}
+
+.service-text h3 {
+    font-size: 28px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.service-text p {
+    font-size: 15px;
+    color: #bfbfbf;
+    line-height: 1.8;
+}
