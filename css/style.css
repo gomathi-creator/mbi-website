@@ -196,8 +196,17 @@ body {
     align-items: flex-start;
 }
 
+/* SCROLL ANIMATION BASE */
 .philosophy-text {
     width: 50%;
+
+    opacity: 0;
+    transform: translateX(60px);
+    transition: all 0.8s ease;
+}
+.philosophy-text.show {
+    opacity: 1;
+    transform: translateX(0);
 }
 
 .philosophy-text h2 {
