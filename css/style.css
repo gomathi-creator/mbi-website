@@ -37,6 +37,15 @@ p {
     line-height: var(--lh-body);
     color: var(--text-muted);
 }
+section {
+    padding: 120px 0;
+}
+
+@media (max-width: 768px) {
+    section {
+        padding: 80px 0;
+    }
+}
 
 /* CONTAINER */
 .container {
@@ -263,7 +272,6 @@ html {
 
 /* PHILOSOPHY SECTION */
 .philosophy {
-    padding: 120px 0;
     background: #0f0f0f;
 }
 
@@ -320,10 +328,6 @@ html {
 
     .philosophy-space {
         display: none;
-    }
-
-    .philosophy {
-        padding: 80px 0;
     }
 
     .philosophy-text h2 {
@@ -564,7 +568,6 @@ html {
 
 /* PROCESS */
 .process {
-    padding: 120px 0;
     background: #0f0f0f;
 }
 
@@ -625,10 +628,6 @@ html {
 
 @media (max-width: 768px) {
 
-    .process {
-        padding: 80px 0;
-    }
-
     .process-header h2 {
         font-size: 24px;
         margin-bottom: 40px;
@@ -653,7 +652,6 @@ html {
 
 }
 .materials {
-    padding: 120px 0;
     background: #0f0f0f;
 }
 
@@ -763,7 +761,6 @@ html {
 
 /* CTA SECTION */
 .cta {
-    padding: 120px 0;
     background: #0a0a0a; /* slightly darker than rest */
     text-align: center;
 }
@@ -808,10 +805,6 @@ html {
 
 @media (max-width: 768px) {
 
-    .cta {
-        padding: 80px 0;
-    }
-
     .cta h2 {
         font-size: 24px;
     }
@@ -829,7 +822,6 @@ html {
 /* FOOTER */
 .footer {
     background: #050505;
-    padding: 80px 0 30px;
 }
 
 .footer-container {
