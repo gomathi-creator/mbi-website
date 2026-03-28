@@ -1011,6 +1011,10 @@ html {
     border-top: 1px solid rgba(255,255,255,0.1);
     padding-top: 40px;
 }
+.case-intro,
+.case-intent {
+    padding: 60px 0;
+}
 
 /* GALLERY */
 .gallery-grid {
@@ -1069,9 +1073,18 @@ html {
         grid-template-columns: 1fr;
     }
 
+    
     .case-details {
         flex-direction: column;
-        gap: 20px;
+        gap: 30px;
+        width: 90%;
+    }
+    .detail {
+        width: 100%;
+    }
+
+    .detail p {
+        font-size: 16px;
     }
 
 }
