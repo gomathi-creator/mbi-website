@@ -145,10 +145,13 @@ html {
     overflow: hidden;
 }
 .hero-sub {
-    margin-top: 15px;
-    font-size: 13px;
+    position: absolute;   /* 🔥 key */
+    bottom: 40px;
+    right: 5%;
+
+    font-size: 12px;
     letter-spacing: 2px;
-    color: #b87333; /* copper */
+    color: #b87333;
     text-transform: uppercase;
 }
 
@@ -175,12 +178,17 @@ html {
 
 /* CONTENT */
 .hero-content {
-    position: relative;
+    position: absolute;   /* 🔥 important */
+    top: 0;
+    left: 0;
+    width: 100%;
     height: 100%;
+
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
+
     z-index: 2;
 }
 
@@ -213,11 +221,13 @@ html {
         padding: 0 20px;
         line-height: 1.4;
     }
-        .hero-sub {
-        font-size: 12px;
+    
+    .hero-sub {
+        bottom: 25px;
+        right: 20px;
+        font-size: 11px;
         letter-spacing: 1.5px;
     }
-
 }
 
 .section-line {
