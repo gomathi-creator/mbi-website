@@ -182,6 +182,13 @@ body {
 
 }
 
+.section-line {
+    width: 60px;
+    height: 1px;
+    background: #b87333;
+    margin-bottom: 30px;
+}
+
 /* PHILOSOPHY */
 .philosophy {
     padding: 140px 0;
