@@ -285,6 +285,10 @@ body {
     color: #bfbfbf;
     line-height: 1.8;
 }
+
+.service:nth-child(even) {
+    flex-direction: row-reverse;
+}
 @media (max-width: 768px) {
 
     .service {
