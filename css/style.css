@@ -4,12 +4,38 @@
     padding: 0;
     box-sizing: border-box;
 }
+:root {
+    --font-primary: 'Inter', 'Segoe UI', sans-serif;
+
+    --h1: 48px;
+    --h2: 32px;
+    --h3: 22px;
+    --body: 15px;
+    --small: 13px;
+
+    --lh-heading: 1.3;
+    --lh-body: 1.8;
+
+    --text-main: #eaeaea;
+    --text-muted: #bfbfbf;
+}
 
 /* BODY */
 body {
-    font-family: 'Segoe UI', sans-serif;
+    font-family: var(--font-primary);
     background-color: #0f0f0f;
-    color: #eaeaea;
+    color: var(--text-main);
+}
+h1, h2, h3 {
+    font-weight: 400;
+    line-height: var(--lh-heading);
+    letter-spacing: 0.5px;
+}
+
+p {
+    font-size: var(--body);
+    line-height: var(--lh-body);
+    color: var(--text-muted);
 }
 
 /* CONTAINER */
@@ -194,10 +220,8 @@ html {
 
 /* TEXT */
 .hero h1 {
-    font-size: 48px;
-    font-weight: 400;
-    letter-spacing: 1px;
-    max-width: 800px;
+    font-size: var(--h1);
+    max-width: 780px;
     line-height: 1.3;
 }
 
@@ -269,14 +293,15 @@ html {
 
 /* HEADING */
 .philosophy-text h2 {
-    font-size: 32px;
+    font-size: var(--h2);
     font-weight: 400;
     margin-bottom: 30px; /* spacing you wanted */
 }
 
 /* PARAGRAPH */
 .philosophy-text p {
-    font-size: 15px;
+    font-size: var(--body);
+    max-width: 650px;
     line-height: 1.9;
     color: #bfbfbf;
     margin-bottom: 15px;
@@ -362,6 +387,7 @@ html {
 
 .service-text h3 {
     position: relative;
+    font-size: var(--h3);
 }
 
 .service-text h3::before {
@@ -375,7 +401,7 @@ html {
 }
 
 .service-text p {
-    font-size: 14.5px; /* slightly refined */
+      font-size: var(--body);
     color: #bfbfbf;
     line-height: 1.8;
     max-width: 420px; /* IMPORTANT: controls text width */
@@ -549,7 +575,7 @@ html {
 
 /* HEADER */
 .process-header h2 {
-    font-size: 32px;
+     font-size: var(--h2);
     font-weight: 400;
     margin-bottom: 60px;
 }
@@ -585,7 +611,7 @@ html {
 
 /* TEXT */
 .step-text h3 {
-    font-size: 22px;
+    font-size: var(--h3);
     font-weight: 400;
     margin-bottom: 10px;
 }
@@ -645,7 +671,7 @@ html {
 }
 
 .materials-text h2 {
-    font-size: 32px;
+    font-size: var(--h2);
     margin-bottom: 25px;
 }
 
@@ -750,7 +776,7 @@ html {
 
 /* TEXT */
 .cta h2 {
-    font-size: 32px;
+    font-size: var(--h2);
     font-weight: 400;
     margin-bottom: 20px;
 }
@@ -894,6 +920,17 @@ html {
     .footer-col a,
     .footer-col p {
         font-size: 12px;
+    }
+
+}
+@media (max-width: 768px) {
+
+    :root {
+        --h1: 26px;
+        --h2: 24px;
+        --h3: 18px;
+        --body: 14px;
+        --small: 12px;
     }
 
 }
