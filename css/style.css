@@ -181,3 +181,61 @@ body {
     }
 
 }
+
+/* PHILOSOPHY */
+.philosophy {
+    padding: 140px 0;
+    background: #0f0f0f;
+}
+
+.philosophy-container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.philosophy-text {
+    width: 50%;
+}
+
+.philosophy-text h2 {
+    font-size: 34px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.philosophy-text p {
+    font-size: 15px;
+    line-height: 1.9;
+    color: #bfbfbf;
+    margin-bottom: 15px;
+}
+
+.philosophy-space {
+    width: 40%;
+}
+.philosophy-container {
+    flex-direction: column;
+}
+
+.philosophy-text {
+    width: 100%;
+}
+
+.philosophy-space {
+    display: none;
+}
+
+.philosophy {
+    padding: 80px 0;
+}
+
+.philosophy-text h2 {
+    font-size: 26px;
+}
+
+.philosophy-text p {
+    font-size: 14px;
+}
