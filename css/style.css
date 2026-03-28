@@ -370,8 +370,17 @@ body {
 /* PROJECTS */
 .projects {
     background: #0f0f0f;
+    padding-top: 100px; 
+}
+.projects-header {
+    width: 90%;
+    margin: 0 auto 60px auto;
 }
 
+.projects-header h2 {
+    font-size: 32px;
+    font-weight: 400;
+}
 /* EACH PROJECT */
 .project {
     position: relative;
@@ -448,6 +457,14 @@ body {
 
     .project {
         height: 60vh;
+        padding-top: 70px;
+    }
+    .projects-header {
+        margin-bottom: 40px;
+    }
+
+    .projects-header h2 {
+        font-size: 24px;
     }
 
     .project-info {
