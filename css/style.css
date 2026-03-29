@@ -1085,6 +1085,15 @@ html {
     height: 220px;
 }
 
+/* STORY IMAGES */
+.story-img {
+    width: 60%;
+    height: 360px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 /* DETAILS */
 .case-details {
     display: flex;
@@ -1173,5 +1182,5 @@ html {
 .img3 { background-image: url('../images/project1.png'); }
 .img4 { background-image: url('../images/project2.png'); }
 
-.img5 { background-image: url('../images/project3.png'); }
+.img5 { background-image: url('../images/project4.png'); }
 .img6 { background-image: url('../images/project1.png'); }
