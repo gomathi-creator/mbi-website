@@ -1015,6 +1015,22 @@ html {
 .case-intent {
     padding: 60px 0;
 }
+.case-story {
+    width: 80%;
+    max-width: 1100px;
+    margin: 100px auto;
+}
+.story-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+
+    margin-bottom: 80px;
+     max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 /* GALLERY */
 .gallery-grid {
