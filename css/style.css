@@ -1147,3 +1147,15 @@ html {
     }
 
 }
+
+.project2-hero {
+    background: url('../images/project2.png') center/cover no-repeat;
+}
+
+.img1 { background-image: url('../images/project2.png'); }
+.img2 { background-image: url('../images/project3.png'); }
+.img3 { background-image: url('../images/project1.png'); }
+.img4 { background-image: url('../images/project2.png'); }
+
+.img5 { background-image: url('../images/project3.png'); }
+.img6 { background-image: url('../images/project1.png'); }
