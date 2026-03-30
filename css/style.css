@@ -1301,6 +1301,33 @@ html {
     outline: none;
     border-color: #b87333;
 }
+/* FIX DROPDOWN VISIBILITY (DESKTOP ISSUE) */
+.form-group select {
+    background-color: #0f0f0f; /* force dark */
+    color: white;
+}
+
+/* DROPDOWN OPTIONS */
+.form-group select option {
+    background-color: #0f0f0f;
+    color: white;
+}
+
+/* SELECTED OPTION (highlight) */
+.form-group select option:checked {
+    background-color: #b87333;
+    color: black;
+}
+.form-group select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+
+    background-image: url("data:image/svg+xml;utf8,<svg fill='white' height='20' viewBox='0 0 20 20' width='20' xmlns='http://www.w3.org/2000/svg'><path d='M5 7l5 5 5-5z'/></svg>");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 16px;
+}
 
 /* BUTTON */
 .submit-btn {
