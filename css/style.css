@@ -930,15 +930,7 @@ html {
         flex-wrap: wrap;
     }
 
-    .footer-col h4 {
-        font-size: 13px;
-    }
-
-    .footer-col a,
-    .footer-col p {
-        font-size: 12px;
-    }
-     .footer-contact {
+    .footer-contact {
         font-size: 14px;
         color: #e0e0e0;
         line-height: 1.8;
