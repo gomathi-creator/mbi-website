@@ -966,7 +966,8 @@ html {
 }
 
 .case-hero-content h1 {
-    font-size: 36px;
+    font-size: 40px;
+    letter-spacing: 0.5px;
 }
 
 .case-hero-content p {
@@ -998,6 +999,7 @@ html {
     font-size: 28px;
     margin-bottom: 20px;
     font-weight: 400;
+    letter-spacing: 0.3px;
 }
 .case-details {
     display: flex;
