@@ -955,7 +955,14 @@ html {
     .footer-right p {
         font-size: 15px;
         line-height: 1.8;
+        color: #d0d0d0;
+        text-decoration: none;
+        transition: 0.3s;
     }
+    
+    .footer-right a:hover {
+    color: #b87333;
+}
 
     /* SOCIALS */
     .footer-socials {
