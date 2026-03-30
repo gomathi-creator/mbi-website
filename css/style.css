@@ -1211,6 +1211,26 @@ html {
     background: url('../images/project3.png') center/cover no-repeat;
 }
 
+@media (max-width: 768px) {
+
+    /* 1. SPACE ABOVE EACH STORY BLOCK (top gap) */
+    .story-block {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    /* 2. SPACE BETWEEN TEXT → IMAGE */
+    .story-text {
+        margin-bottom: 15px;
+    }
+
+    /* 3. SPACE BETWEEN IMAGE → NEXT HEADING */
+    .story-img {
+        margin-bottom: 20px;
+    }
+
+}
+
 /* reuse but different mix */
 .img1 { background-image: url('../images/project3.png'); }
 .img2 { background-image: url('../images/project2.png'); }
