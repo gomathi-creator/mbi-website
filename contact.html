@@ -38,6 +38,8 @@
         <!-- REQUIRED for Netlify -->
         <input type="hidden" name="form-name" value="contact">
 
+        <div class="form-grid">
+
         <div class="form-group">
             <label>Name</label>
             <input type="text" name="name" placeholder="Your name" required>
@@ -58,6 +60,8 @@
             <select name="project">
                 <option>Residential Interior</option>
                 <option>Commercial Interior</option>
+                <option>Renovation</option>
+                <option>Interior Design + 3d</option>
                 <option>Consultation</option>
             </select>
         </div>
@@ -72,10 +76,11 @@
             </select>
         </div>
 
-        <div class="form-group">
-            <label>Project Brief</label>
-            <textarea name="brief" rows="4" placeholder="Tell us about your requirements"></textarea>
-        </div>
+         <div class="form-group full-width">
+        <label>Project Brief</label>
+        <textarea name="brief" rows="4" placeholder="Tell us about your requirements"></textarea>
+         </div>
+    </div>        
 
         <button type="submit" class="submit-btn">
             Submit Inquiry
