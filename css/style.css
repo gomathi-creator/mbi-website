@@ -1413,3 +1413,17 @@ html {
     background: #b87333;
     color: black;
 }
+.footer-credit {
+    margin-top: 20px;
+    font-size: 13px;
+    color: #888;
+}
+
+.footer-credit a {
+    color: #b87333;
+    text-decoration: none;
+}
+
+.footer-credit a:hover {
+    text-decoration: underline;
+}
