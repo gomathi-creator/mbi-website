@@ -1229,7 +1229,7 @@ html {
 }
 
 .project2-hero {
-    background: url('../images/project5.png') center/cover no-repeat;
+    background: url('/images/project8.png') center/cover no-repeat;
 }
 
 .story-block {
@@ -1269,13 +1269,13 @@ html {
     }
 }
 
-.img1 { background-image: url('../images/project7.png'); }
-.img2 { background-image: url('../images/project8.png'); }
-.img3 { background-image: url('../images/project5.png'); }
-.img4 { background-image: url('../images/project2.png'); }
+.img1 { background-image: url('/images/project9.png'); }
+.img2 { background-image: url('/images/project11.png'); }
+.img3 { background-image: url('/images/project10.png'); }
+.img4 { background-image: url('/images/project12.png'); }
 
-.img5 { background-image: url('../images/project5.png'); }
-.img6 { background-image: url('../images/project6.png'); }
+.img5 { background-image: url('/images/project8.png'); }
+.img6 { background-image: url('/images/project7.png'); }
 
 .project3-hero {
     background: url('../images/project3.png') center/cover no-repeat;
