@@ -568,12 +568,11 @@ html {
         font-size: 13px;
     }
     
-    .project-image {
-        background-size: contain;   /* SHOW FULL IMAGE */
-        background-repeat: no-repeat;
-        background-position: center;
-        background-color: #000;     /* fills empty space nicely */
-    }
+    .project-image img {
+       width: 100%;
+       height: auto;
+       object-fit: contain;
+     }
 
 }
 
