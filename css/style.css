@@ -544,7 +544,8 @@ html {
 
     .project {
         height: 60vh;
-        padding-top: 50px;
+         margin: 0;
+         padding: 0;
     }
     .projects-header {
         margin-bottom: 40px;
@@ -568,18 +569,16 @@ html {
         font-size: 13px;
     }
     
+     .project-image {
+        display: flex;
+        align-items: flex-start; /* THIS IS THE FIX */
+    }
+    
     .project-image img {
        width: 100%;
        height: 450px;
        object-fit: contain;
      }
-    .project {
-        margin-bottom: 10px;
-    }
-
-    .projects-section {
-        padding: 20px 0;
-    }
 
 }
 
