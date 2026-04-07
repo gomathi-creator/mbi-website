@@ -573,6 +573,13 @@ html {
        height: 450px;
        object-fit: contain;
      }
+    .project {
+        margin-bottom: 10px;
+    }
+
+    .projects-section {
+        padding: 20px 0;
+    }
 
 }
 
