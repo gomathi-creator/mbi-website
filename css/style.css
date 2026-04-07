@@ -570,14 +570,17 @@ html {
     }
     
      .project-image {
-        display: flex;
-        align-items: flex-start; /* THIS IS THE FIX */
+        position: relative;
+        overflow: hidden;
+         line-height: 0;
     }
     
     .project-image img {
        width: 100%;
        height: 450px;
        object-fit: contain;
+
+       display: block;
      }
 
 }
